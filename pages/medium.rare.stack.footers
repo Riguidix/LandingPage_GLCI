@@ -1,0 +1,41 @@
+<footer class="space--sm footer-1 text-center-xs vjs-1603183914331 vhz vhy-1603183985607" footer-id="variant-footer-4" vic="vjs-1603183914331" vhy="vhy-1603183985607" vie="GLCI Footer">
+    <div class="container vjs-1603183914331-0" vic="vjs-1603183914331-0">
+        <div class="row vjs-1603183914331-1" vic="vjs-1603183914331-1">
+            <div class="col-sm-6 vjs-1603183914331-2" vic="vjs-1603183914331-2">
+                <ul class="list-inline list--hover vjs-1603183914331-3" vic="vjs-1603183914331-3">
+                    <li class="voh vjs-1603183914331-4 vir" vic="vjs-1603183914331-4">
+                        <a href="./index.html#history" vic="vjs-1603183914331-5" class="vjs-1603183914331-5 vir inner-link" target="_self"><span vic="vjs-1603183914331-6" class="vjs-1603183914331-6 vir" contenteditable="true">Acerca de </span></a>
+                    </li>
+                    <li class="voh vjs-1603183914331-7 vir" vic="vjs-1603183914331-7">
+                        <a href="./index.html#services" vic="vjs-1603183914331-8" class="vjs-1603183914331-8 vir inner-link" target="_self"><span vic="vjs-1603183914331-9" class="vjs-1603183914331-9 vir" contenteditable="true">Servicios</span></a>
+                    </li>
+                    <li class="voh vjs-1603183914331-10 vir" vic="vjs-1603183914331-10">
+                        <a href="./index.html#contact-us" vic="vjs-1603183914331-11" class="vjs-1603183914331-11 vir inner-link" target="_self"><span vic="vjs-1603183914331-12" class="vjs-1603183914331-12 vir" contenteditable="true">Contactanos </span></a>
+                    </li>
+                    <li class="voh vjs-1603183914331-13 vir vib" vic="vjs-1603183914331-13">
+                        <a href="#" vic="vjs-1603183914331-14" class="vjs-1603183914331-14 vir"><span vic="vjs-1603183914331-15" class="vjs-1603183914331-15 vir" contenteditable="true">k With Us</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6 text-right text-center-xs vjs-1603183914331-16" vic="vjs-1603183914331-16">
+                <ul class="social-list list-inline list--hover vjs-1603183914331-17" vic="vjs-1603183914331-17">
+                    <li class="voh vjs-1603183914331-18 vir vib" vic="vjs-1603183914331-18"><a href="#" vic="vjs-1603183914331-19" class="vjs-1603183914331-19 vir"><i class="socicon icon vjs-1603183914331-20 icon-Lock icon--xs" vic="vjs-1603183914331-20"></i></a></li>
+                    <li class="voh vjs-1603183914331-21 vir vib" vic="vjs-1603183914331-21"><a href="#" vic="vjs-1603183914331-22" class="vjs-1603183914331-22 vir"><i class="socicon socicon-twitter icon icon--xs vjs-1603183914331-23" vic="vjs-1603183914331-23"></i></a></li>
+                    <li class="voh vjs-1603183914331-24 vir" vic="vjs-1603183914331-24"><a href="#" vic="vjs-1603183914331-25" class="vjs-1603183914331-25 vir"><i class="socicon socicon-facebook icon icon--xs vjs-1603183914331-26" vic="vjs-1603183914331-26"></i></a></li>
+                    <li class="voh vjs-1603183914331-27 vir" vic="vjs-1603183914331-27"><a href="#" vic="vjs-1603183914331-28" class="vjs-1603183914331-28 vir"><i class="socicon icon vjs-1603183914331-29 socicon-whatsapp icon--xs" vic="vjs-1603183914331-29"></i></a></li>
+                </ul>
+                <a href="./index.html#contact-us" class="btn type--uppercase vjs-1603183914331-30 vir btn--primary inner-link" vic="vjs-1603183914331-30" target="_self">
+                    <span class="btn__text vjs-1603183914331-31 vir" vic="vjs-1603183914331-31" contenteditable="true">Contactanos</span>
+                </a>
+            </div>
+        </div>
+        <div class="row vjs-1603183914331-32" vic="vjs-1603183914331-32">
+            <div class="col-sm-12 vjs-1603183914331-33" vic="vjs-1603183914331-33">
+                <img alt="Image" class="logo vjs-1603183914331-34" src="../img/Logo.png" vic="vjs-1603183914331-34">
+                <span class="type--fine-print vjs-1603183914331-35 vir" vic="vjs-1603183914331-35" contenteditable="true">© <span class="update-year vjs-1603183914331-36 vir" vic="vjs-1603183914331-36" contenteditable="true">2020</span> Grupo Legal Corporativo Internacional, S. C.</span>
+                <a class="type--fine-print vjs-1603183914331-37 vir" href="./privacy.html" vic="vjs-1603183914331-37" target="_self" contenteditable="true">Aviso de Privacidad </a>
+                <a class="type--fine-print vjs-1603183914331-38 vir" href="./privacy.html" vic="vjs-1603183914331-38" target="_self" contenteditable="true">Legal</a>
+            </div>
+        </div>
+    </div>
+</footer>

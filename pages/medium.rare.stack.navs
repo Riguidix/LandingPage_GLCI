@@ -1,0 +1,118 @@
+<div class="vhz via-1603184357359" nav-id="variant-nav-1" via="via-1603184357359" vio="GLCI NavBar">
+        <div class="bar bar--sm visible-xs vjs-1603184304105-0" vic="vjs-1603184304105-0">
+            <div class="container vjs-1603184304105-1" vic="vjs-1603184304105-1">
+                <div class="row vjs-1603184304105-2" vic="vjs-1603184304105-2">
+                    <div class="col-3 col-md-2 vjs-1603184304105-3" vic="vjs-1603184304105-3">
+                        <a href="index.html" vic="vjs-1603184304105-4" class="vjs-1603184304105-4 vir"> 
+                            <img class="logo logo-dark vjs-1603184304105-5" alt="logo" src="../img/Logo.png" vic="vjs-1603184304105-5">      
+                            <img class="logo logo-light vjs-1603184304105-6" alt="logo" src="../img/logo-light.png" vic="vjs-1603184304105-6">                        
+                        </a>
+                    </div>
+                    <div class="col-9 col-md-10 text-right vjs-1603184304105-7" vic="vjs-1603184304105-7">
+                        <a href="#" class="hamburger-toggle vjs-1603184304105-8 vir" data-toggle-class="#menu1;hidden-xs hidden-sm" vic="vjs-1603184304105-8">
+                            <i class="icon icon--sm stack-interface stack-menu vjs-1603184304105-9" vic="vjs-1603184304105-9"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav id="menu1" class="bar bar-1 hidden-xs">
+            <div class="container vjs-1603184304105-10" vic="vjs-1603184304105-10">
+                <div class="row vjs-1603184304105-11" vic="vjs-1603184304105-11">
+                    <div class="col-lg-1 col-md-2 hidden-xs vjs-1603184304105-12" vic="vjs-1603184304105-12">
+                        <div class="bar__module vjs-1603184304105-13" vic="vjs-1603184304105-13">
+                            <a href="index.html" vic="vjs-1603184304105-14" class="vjs-1603184304105-14 vir">
+                                <img class="logo logo-dark vjs-1603184304105-15" alt="Logo de Agencia De Soluciones Grupo Legal Corporativo Internacional, S. C." src="../img/Logo.png" vic="vjs-1603184304105-15">      
+                                <img class="logo logo-light vjs-1603184304105-16" alt="logo" src="../img/Logo.png" vic="vjs-1603184304105-16">
+                            </a>    
+                        </div>
+                    </div>
+                    <div class="col-lg-11 col-md-12 text-right text-left-xs text-left-sm vjs-1603184304105-17" vic="vjs-1603184304105-17">
+                        <div class="bar__module vjs-1603184304105-18" vic="vjs-1603184304105-18">
+                            <ul class="menu-horizontal text-left vjs-1603184304105-19" vic="vjs-1603184304105-19">
+                                <li class="voh vjs-1603184304105-20" vic="vjs-1603184304105-20">
+                                    <a href="./index.html" vic="vjs-1603184304105-21" class="vjs-1603184304105-21 vir" target="_self" contenteditable="true">&nbsp; inicio&nbsp;
+                                    </a>
+                                </li>
+                                <li class="dropdown voh vnn vjs-1603184304105-22" vic="vjs-1603184304105-22">
+                                    <span class="dropdown__trigger vjs-1603184304105-23 vir" vic="vjs-1603184304105-23" contenteditable="true">&nbsp;acerca de&nbsp;</span>
+                                    <div class="dropdown__container vjs-1603184304105-24" vic="vjs-1603184304105-24">
+                                        <div class="container vjs-1603184304105-25" vic="vjs-1603184304105-25">
+                                            <div class="row vjs-1603184304105-26" vic="vjs-1603184304105-26">
+                                                <div class="dropdown__content col-lg-2 vjs-1603184304105-27" vic="vjs-1603184304105-27">
+                                                    <ul class="menu-vertical vjs-1603184304105-28" vic="vjs-1603184304105-28">
+                                                        <li class="voh vjs-1603184448657 vib" vic="vjs-1603184448657">
+                                                            <a href="#" vic="vjs-1603184448657-0" class="vir vjs-1603184448657-0" contenteditable="true">Valores<br></a>
+                                                        </li><li class="voh vjs-1603184304105-29" vic="vjs-1603184304105-29">
+                                                            <a href="#history" vic="vjs-1603184304105-30" class="vjs-1603184304105-30 vir inner-link" target="_self" contenteditable="true">Historia<br></a>
+                                                        </li><li class="voh vjs-1603184528466" vic="vjs-1603184528466">
+                                                            <a href="#services" vic="vjs-1603184528466-0" class="vir vjs-1603184528466-0 inner-link" target="_self" contenteditable="true">Servicios<br></a>
+                                                        </li><li class="voh vjs-1603184475434" vic="vjs-1603184475434">
+                                                            <a href="#profile" vic="vjs-1603184475434-0" class="vir vjs-1603184475434-0 inner-link" target="_self" contenteditable="true">Nuestro Perfil<br></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown voh vnn vjs-1603184304105-31 vib" vic="vjs-1603184304105-31">
+                                    <span class="dropdown__trigger vjs-1603184304105-32 vir" vic="vjs-1603184304105-32" contenteditable="true"> </span>
+                                    <div class="dropdown__container vjs-1603184304105-33" vic="vjs-1603184304105-33">
+                                        <div class="container vjs-1603184304105-34" vic="vjs-1603184304105-34">
+                                            <div class="row vjs-1603184304105-35" vic="vjs-1603184304105-35">
+                                                <div class="dropdown__content row w-100 vjs-1603184304105-36" vic="vjs-1603184304105-36">
+                                                    <div class="col-lg-3 vjs-1603184304105-37" vic="vjs-1603184304105-37">
+                                                        <h5 vic="vjs-1603184304105-38" class="vjs-1603184304105-38 vir" contenteditable="true">Menu Title</h5>
+                                                        <ul class="menu-vertical vjs-1603184304105-39" vic="vjs-1603184304105-39">
+                                                            <li class="voh vjs-1603184304105-40" vic="vjs-1603184304105-40">
+                                                                <a href="#" vic="vjs-1603184304105-41" class="vjs-1603184304105-41 vir" contenteditable="true">Single Link</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-3 vjs-1603184304105-42" vic="vjs-1603184304105-42">
+                                                        <h5 vic="vjs-1603184304105-43" class="vjs-1603184304105-43 vir" contenteditable="true">Menu Title</h5>
+                                                        <ul class="menu-vertical vjs-1603184304105-44" vic="vjs-1603184304105-44">
+                                                            <li class="voh vjs-1603184304105-45" vic="vjs-1603184304105-45">
+                                                                <a href="#" vic="vjs-1603184304105-46" class="vjs-1603184304105-46 vir" contenteditable="true">Single Link</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-3 vjs-1603184304105-47" vic="vjs-1603184304105-47">
+                                                        <h5 vic="vjs-1603184304105-48" class="vjs-1603184304105-48 vir" contenteditable="true">Menu Title</h5>
+                                                        <ul class="menu-vertical vjs-1603184304105-49" vic="vjs-1603184304105-49">
+                                                            <li class="voh vjs-1603184304105-50" vic="vjs-1603184304105-50">
+                                                                <a href="#" vic="vjs-1603184304105-51" class="vjs-1603184304105-51 vir" contenteditable="true">Single Link</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-3 vjs-1603184304105-52" vic="vjs-1603184304105-52">
+                                                        <h5 vic="vjs-1603184304105-53" class="vjs-1603184304105-53 vir" contenteditable="true">Menu Title</h5>
+                                                        <ul class="menu-vertical vjs-1603184304105-54" vic="vjs-1603184304105-54">
+                                                            <li class="voh vjs-1603184304105-55" vic="vjs-1603184304105-55">
+                                                                <a href="#" vic="vjs-1603184304105-56" class="vjs-1603184304105-56 vir" contenteditable="true">Single Link</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bar__module vjs-1603184304105-57" vic="vjs-1603184304105-57">
+                            <a class="btn btn--sm type--uppercase vjs-1603184304105-58 vir vib" href="#customise-template" vic="vjs-1603184304105-58">
+                                <span class="btn__text vjs-1603184304105-59 vir" vic="vjs-1603184304105-59" contenteditable="true">
+                                    Try Builder
+                                </span>
+                            </a>
+                            <a class="btn btn--sm type--uppercase vjs-1603184304105-60 vir btn--primary" href="./contact_us.html" vic="vjs-1603184304105-60" target="_self">
+                                <span class="btn__text vjs-1603184304105-61 vir" vic="vjs-1603184304105-61" contenteditable="true">Contactanos </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
