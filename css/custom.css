@@ -1,1 +1,1 @@
-.bar .logo {max-height: 100% !important;height: 100%;max-width: 100% !important;}
+.bar .logo {max-height: 100% !important;height: 100%;max-width: 100% !important;} @media only screen and (max-width: 768px) {.bar .logo {max-height: 1.85714286em; max-width: none;}}
