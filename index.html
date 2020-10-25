@@ -35,21 +35,25 @@
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
         <!-- <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" /> -->
         <link href="css/theme-cedar.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/animate.min.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet" type="text/css">
         <link href="css/font-karla.css" rel="stylesheet" type="text/css">
-
     </head>
-    <body data-smooth-scroll-offset="77">
+    <body id="top" class="" data-smooth-scroll-offset="77">
+        <div class="goTop">                        
+            <button onclick="topFunction()" id="topButton"><i class="icon-Arrow-Up icon icon--md"></i></button>
+        </div>
+
         <div class="nav-container">
             <div class="via-1603184357359" via="via-1603184357359" vio="GLCI NavBar">
                 <div class="bar bar--sm visible-xs">
                     <div class="container">
                         <div class="row">
                             <div class="col-3 col-md-2">
-                                <a href="index.html" rel="noopenner noreferrer"> <img class="logo logo-dark" alt="logo" src="img/Logo.png"> <img class="logo logo-light" alt="logo" src="img/logo-light.png"> </a>
+                                <a href="index.html" rel="noopenner noreferrer"> <img class="logo logo-dark" alt="logo" src="img/Logo.png"><img class="logo logo-light" alt="logo" src="img/logo-light.png"> </a>
                             </div>
                             <div class="col-9 col-md-10 text-right">
                                 <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs hidden-sm" rel="noopenner noreferrer"> <i class="icon icon--sm stack-interface stack-menu"></i> </a>
@@ -74,11 +78,12 @@
                                             <div class="dropdown__container">
                                                 <div class="container">
                                                     <div class="row">
-                                                        <div class="dropdown__content col-lg-2">
+                                                        <div class="dropdown__content col-6 col-lg-2">
                                                             <ul class="menu-vertical">
                                                                 <li> <a href="#history" class="inner-link" target="_self" rel="noopenner noreferrer">Historia<br></a> </li>
                                                                 <li> <a href="#services" class="inner-link" target="_self" rel="noopenner noreferrer">Servicios<br></a> </li>
                                                                 <li> <a href="#profile" class="inner-link" target="_self" rel="noopenner noreferrer">Nuestro Perfil<br></a> </li>
+                                                                <li> <a href="./aboutus.html" class="inner-link" target="_self" rel="noopenner noreferrer">Misión y Visión<br></a></li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -88,7 +93,7 @@
                                     </ul>
                                 </div>
                                 <div class="bar__module">
-                                    <a class="btn btn--sm type--uppercase btn--primary" href="./contact_us.html" target="_self" rel="noopenner noreferrer"> <span class="btn__text">Contactanos </span> </a>
+                                    <a class="btn btn--sm type--uppercase btn--primary" href="./contact_us.html" target="_self" rel="noopenner noreferrer"> <span class="btn__text">Contactanos</span> </a>
                                 </div>
                             </div>
                         </div>
@@ -96,14 +101,16 @@
                 </nav>
             </div>
         </div>
+
         <div class="main-container">
             <section class="cover space--lg unpad--bottom switchable bg--dark switchable--switch">
                 <div class="container">
                     <div class="row justify-content-between">
-                        <div class="col-md-6">
+                        <div class="col-md-6 animate__animated animate__backInLeft" data-wow-offset="10">
                             <div class="mt--2">
                                 <h1>Grupo Legal Corporativo Internacional, S. C.<br></h1>
-                                <p class="lead">Somos un bufette con toda la infraestructura, capacidad y experiencia en nuestros abogados para brindarte el mejor de los servicios.<br></p>
+                                <!-- <p class="lead">Somos un bufette con toda la infraestructura, capacidad y experiencia en nuestros abogados para brindarte el mejor de los servicios.<br></p> -->
+                                <p class="lead">Somos una empresa de cobranza con la infraestructura, capacidad y experiencia para brindarte el mejor de los servicios.<br></p>
                                 <a class="btn btn--primary type--uppercase" href="./contact_us.html" rel="noopenner noreferrer"> <span class="btn__text">Contactanos</span> </a> <span class="block type--fine-print"> </span> </div>
                         </div>
                         <div class="col-md-6 col-lg-5"> <img alt="Image" src="img/device-3.png"> </div>
@@ -114,21 +121,22 @@
                 <div class="container">
                     <div class="row justify-content-around">
                         <div class="col-md-7"> <img alt="Image" src="img/Logo_TextH.png"> </div>
-                        <div class="col-lg-4 col-md-8">
+                        <div class="col-lg-4 col-md-7">
                             <div class="switchable__text">
                                 <h3>¿Quíenes Somos?<br></h3>
-                                <p>Unidad legal especializada con el fin de brindar <strong>ASESORÍA JURÍDICA INTEGRAL</strong> a empresas <strong>NACIONALES</strong> e <strong>INTERNACIONALES</strong>.<br> Es una organización con profesionales especializados en instituciones de prestigio, con amplía experiencia en el ejercicio del DERECHO CORPORATIVO y con referencia en <strong>ÁREAS GUBERNAMENTALES</strong>. </p>
+                                <p class="lead">Unidad legal especializada con el fin de brindar <strong>ASESORÍA JURÍDICA INTEGRAL</strong> a empresas <strong>NACIONALES</strong> e <strong>INTERNACIONALES</strong>.<br> Es una organización con profesionales especializados en instituciones de prestigio, con amplía experiencia en el ejercicio del <strong>DERECHO CORPORATIVO</strong> y con referencia en <strong>ÁREAS GUBERNAMENTALES</strong>. </p>
                                 <hr class="short"> </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="space--xs text-justify">
+            <section id="history" class="space--xs text-justify">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-10 col-lg-8">
+                        <div class="col-md-10 col-lg-12">
                             <h2>Historia<br></h2>
-                            <p class="lead"><strong>GRUPO LEGAL CORPORATIVO INTERNACIONAL, S. C.</strong> por sus siglas <strong title="Grupo Legal Corporativo Internacional">G. L. C. I.</strong>: <br> Marca creada en 1999 y conformada como corporación en 2003.<br>La vida y funcionamiento de la empresa se regula por una diversidad y pluralidad de normas y ordenamientos jurídicos, <strong>GRUPO LEGAL CORPORATIVO INTERNACIONAL,</strong> S. C. es la mejor oportunidad para resguardar legalmente sus intereses. </p>
+                            <!-- <p class="lead"><strong>GRUPO LEGAL CORPORATIVO INTERNACIONAL, S. C.</strong> por sus siglas <strong title="Grupo Legal Corporativo Internacional">G. L. C. I.</strong>: <br> Marca creada en 1999 y conformada como corporación en 2003.<br>La vida y funcionamiento de la empresa se regula por una diversidad y pluralidad de normas y ordenamientos jurídicos, <strong>GRUPO LEGAL CORPORATIVO INTERNACIONAL,</strong> S. C. es la mejor oportunidad para resguardar legalmente sus intereses. </p> -->
+                            <p class="lead"><strong>GRUPO LEGAL CORPORATIVO INTERNACIONAL, S. C.</strong> por sus siglas <strong title="Grupo Legal Corporativo Internacional">G. L. C. I.</strong>, empresa de cobranza creada en el año 2003, donde nuestra especialidad es la administración y recuperación de cartera en de créditos hipotecarios tanto en los segmentos judicial y extrajudicial, apegados a la creación de nuesvas y mejores estrategías por parte de Oficinas Centrales del Instituto para la recuperación de cartera vencida y mantenimiento de cartera vigente. </p>
                         </div>
                     </div>
                 </div>
@@ -138,7 +146,7 @@
                     <div class="row">
                         <div class="col-md-8 col-lg-6">
                             <div class="cta">
-                                <h2 class="type--uppercase">Tienes problemas legales, Nosotros te ayudamos<br></h2>
+                                <h2 class="type--lowercase">Tienes problemas legales, <br>Nosotros te ayudamos<br></h2>
                                 <a class="btn btn--primary type--uppercase" href="./contact_us.html" rel="noopenner noreferrer"> <span class="btn__text">
                             Contactanos&nbsp;</span> </a>
                             </div>
@@ -199,10 +207,11 @@
             <section id="profile" class="switchable feature-large space--xs">
                 <div class="container">
                     <div class="row justify-content-between">
-                        <div class="col-lg-5 col-md-10">
+                        <div class="col-lg-6 col-md-6">
                             <div class="switchable__text">
                                 <h2>Nuestro Perfil<br></h2>
-                                <p class="lead">Son ilimitados los servicios legales que la empresa requiere y <b>Grupo Legal Corporativo Internacional, S. C.</b> los ofrece en una sola unidad de consultoría.<br><br>Ofrecemos servicios legales especializados, con oficinas corresponsales en Chihuahua, Cd. Juarez, Coahuila, Monterrey, Nuevo León y México D. F. lo que permite un seguimiento global de sus negocios a nuestros clientes.<br></p>
+                                <!-- <p class="lead">Son ilimitados los servicios legales que la empresa requiere y <b>Grupo Legal Corporativo Internacional, S. C.</b> los ofrece en una sola unidad de consultoría.<br><br>Ofrecemos servicios legales especializados, con oficinas corresponsales en Chihuahua, Cd. Juarez, Coahuila, Monterrey, Nuevo León y México D. F. lo que permite un seguimiento global de sus negocios a nuestros clientes.<br></p> -->
+                                <p class="lead text-justify">Son ilimitados los servicios legales que la empresa requiere y <b>Grupo Legal Corporativo Internacional, S. C.</b> los ofrece en una sola unidad de consultoría.<br><br>Ofrecemos servicios legales especializados, con oficinas corresponsales en Chihuahua, Coahuila, Sonora y Nuevo Leon lo que permite un seguimiento global de sus negocios a nuestros clientes.<br></p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -242,7 +251,8 @@
                     </div>
                 </div>
             </section>
-            <footer class="space--sm footer-1 text-center-xs">
+
+            <footer class="bg--dark space--sm footer-1 text-center-xs">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
@@ -255,13 +265,13 @@
                         <div class="col-sm-6 text-right text-center-xs">
                             <ul class="social-list list-inline list--hover">
                                 <li><a href="#" rel="noopenner noreferrer"><i class="socicon socicon-facebook icon icon--xs"></i></a></li>
-                                <li><a href="#" rel="noopenner noreferrer"><i class="socicon icon socicon-whatsapp icon--xs"></i></a></li>
+                                <li><a href="https://wa.me/526141172808?text=Me%20interesan%20in%20los%20servicios%20de%20Grupo%20Legal%20Corporativo%20Internacional,%20S.%20C." rel="noopenner noreferrer"><i class="socicon icon socicon-whatsapp icon--xs"></i></a></li>
                             </ul>
                             <a href="./contact_us.html" class="btn type--uppercase btn--primary inner-link" target="_self" rel="noopenner noreferrer"> <span class="btn__text">Contactanos</span> </a>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-12"> <img alt="Image" class="logo" src="img/Logo.png"> <span class="type--fine-print">© <span class="update-year">2020</span> Grupo Legal Corporativo Internacional, S. C.</span> <a class="type--fine-print" href="./policy.html" target="_self" rel="noreferrer noopenner">Aviso de Privacidad </a> <a class="type--fine-print" href="./policy.html" target="_self" rel="noreferrer noopenner">Legal</a> </div>
+                        <span class="type--fine-print">© <span class="update-year">2020</span> Grupo Legal Corporativo Internacional, S. C.</span> <a class="type--fine-print" href="./policy.html" target="_self" rel="noreferrer noopenner">Aviso de Privacidad </a> <a class="type--fine-print" href="./policy.html" target="_self" rel="noreferrer noopenner">Legal</a> </div>
                     </div>
                 </div>
             </footer>
@@ -270,7 +280,26 @@
         <script src="js/parallax.js"></script>
         <script src="js/smooth-scroll.min.js"></script>
         <script src="js/scripts.js"></script>
+        <script type="text/javascript">
+            //Get the button:
+            topButton = document.getElementById("topButton");
 
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                topButton.style.display = "block";
+              } else {
+                topButton.style.display = "none";
+              }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0; // For Safari
+              document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }            
+        </script>
     </body>
-
 </html>
