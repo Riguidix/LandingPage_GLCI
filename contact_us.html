@@ -51,12 +51,32 @@
             window.onload = function() {
                 document.getElementById('contact-form').addEventListener('submit', function(event) {
                     event.preventDefault();
-                    // generate a five digit number for the contact_number variable
-                    this.contact_number.value = Math.random() * 100000 | 0;
-                    // these IDs from the previous steps
-                    emailjs.sendForm('contact_service', 'contact_form', this);
+
+                    var user_name = this.user_name.value;
+                    var user_email = this.user_email.value;
+                    var message = this.message.value;
+
+                    if (user_name  != "" && user_name.length > 5 && ValidateEmail(user_email) && message != "" && message.length > 15) {
+                        this.contact_number.value = Math.random() * 100000 | 0;                   
+                        emailjs.sendForm('contact_service', 'contact_form', this);
+                    
+                        this.user_name.value = "";
+                        this.user_email.value = "";
+                        this.message.value = "";
+                    }
                 });
             }
+
+            function ValidateEmail(mail) {
+                var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+                if (mail.match(mailformat)) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+       
         </script>  
     </head>
     <body data-smooth-scroll-offset="77">
@@ -263,9 +283,9 @@
                             </div>
                             <form id="contact-form" class="form-email row mx-0" data-success="Gracias por contactarnos, nos comunicaremos tan pronto como sea posible." data-error="Por favor ingresa todos los campos adecuadamente.">
                                 <input type="hidden" name="contact_number">
-                                <div class="col-md-6 col-12"> <label>Nombre Completo:</label> <input type="text" name="user_name" class="validate-required"> </div>
-                                <div class="col-md-6 col-12"> <label>Correo Electrónico:</label> <input type="email" name="user_email" class="validate-required validate-email"> </div>
-                                <div class="col-md-12 col-12"> <label>Mensaje:</label> <textarea rows="3" name="message" class="validate-required"></textarea> </div>
+                                <div class="col-md-6 col-12"> <label>Nombre Completo:</label> <input id="user_name" type="text" name="user_name" class="validate-required"> </div>
+                                <div class="col-md-6 col-12"> <label>Correo Electrónico:</label> <input id="user_email" type="email" name="user_email" class="validate-required validate-email"> </div>
+                                <div class="col-md-12 col-12"> <label>Mensaje:</label> <textarea id="message" rows="3" name="message" class="validate-required"></textarea> </div>
                                 <div class="col-md-5 col-lg-4 col-6"> <input type="submit" class="btn btn--primary type--uppercase" value="Enviar"></div>
                             </form>
                         </div>
@@ -285,7 +305,7 @@
                         </div>
                         <div class="col-sm-6 text-right text-center-xs">
                             <ul class="social-list list-inline list--hover">
-                                <li><a href="https://www.facebook.com/GLCICONSULTORES" rel="noopenner noreferrer"><i class="socicon socicon-facebook icon icon--xs"></i></a></li>
+                                <li><a href="#" rel="noopenner noreferrer"><i class="socicon socicon-facebook icon icon--xs"></i></a></li>
                                 <li><a href="https://wa.me/526141172808?text=Me%20interesan%20in%20los%20servicios%20de%20Grupo%20Legal%20Corporativo%20Internacional,%20S.%20C." rel="noopenner noreferrer"><i class="socicon icon socicon-whatsapp icon--xs"></i></a></li>
                             </ul>
                             <a href="./contact_us.html" class="btn type--uppercase btn--primary inner-link" target="_self" rel="noopenner noreferrer"> <span class="btn__text">Contactanos</span> </a>
