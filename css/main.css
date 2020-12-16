@@ -1,0 +1,49 @@
+/*============================================================
+==== DOCUMENT INFORMATION ===============
+	- Document: Landing Page
+	- Version:  0.1.0
+	- Client:   Grupo Legal Corporativo Internacional, S. C.
+	- Author:   Reydescel Antonio Herrera Rodríguez - SolideMX
+    
+==== CSS DIRECTORY ===============
+    1. =GLOBAL
+        1.1 -- CLASSES SETTINGS
+        1.2 -- ID'S SETTINGS
+    2. =LOADING
+    3. =HEADER
+    4. =MAIN
+    5. =FOOTER
+    6. =MADEBY
+    
+*============================================================*/
+
+/* ===============
+   GLOBAL SETTINGS 
+   =============== */
+    :root {
+        --oldMauve: #5a323a;
+        --wine: #5C2A33;
+        --raisinBlack: #1c191b;
+        --quickSilver: #a2a4a7;
+    }
+
+/* ---   CLASSES SETTINGS --- */
+
+/* ---   ID'S SETTINGS --- */
+
+/* ===============
+   HEADER SETTINGS 
+   =============== */
+
+/* ===============
+   MAIN SETTINGS 
+   =============== */
+
+/* ===============
+   FOOTER SETTINGS 
+   =============== */
+
+/* ===============
+   MADEBY SETTINGS 
+   =============== */
+
